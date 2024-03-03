@@ -1,15 +1,3 @@
-# from flask import Flask
-
-# app = Flask(__name__)
-
-# @app.route('/')
-# def hello_world():
-#     return 'Hello, World!'
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
-
-
 """A simple Flask application"""
 
 from flask import Flask
@@ -23,4 +11,3 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run(debug=True)
-# Newline added here
